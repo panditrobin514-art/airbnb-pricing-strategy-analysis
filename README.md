@@ -141,6 +141,7 @@ airbnb-pricing-strategy-analysis
 │
 ├── images/
 │   ├── airbnb_dashboard.png
+│   └── dataset_preview.png
 │   └── price_distribution.png
 │   └── Room_Type_Distribution_Across_NYC_Neighborhood.png
 │
