@@ -4,10 +4,8 @@ End-to-end Airbnb NYC data analysis project with Python EDA and Power BI dashboa
 
 ## 📌 Project Overview
 
-This project analyzes Airbnb listings in New York City to uncover pricing patterns, demand trends, and key factors influencing listing prices.
-
+This project focuses on analyzing Airbnb listings in New York City to uncover pricing patterns, demand trends, and key factors influencing listing prices. The goal is to derive actionable insights that can help hosts optimize their pricing strategy.
 The analysis combines **Python-based Exploratory Data Analysis (EDA)** and an **interactive Power BI dashboard** to generate actionable business insights.
-
 ---
 
 ## ⭐ Project Highlights
@@ -30,7 +28,7 @@ This project aims to identify the factors that influence pricing and demand to s
 ## ❓ Business Questions
 
 * Which neighborhoods have the highest number of Airbnb listings?
-*  How does price vary across different room types?
+* How does price vary across different room types?
 * Which neighborhoods have the most expensive listings?
 * What factors influence Airbnb listing prices?
 * Which areas have the highest demand based on reviews?
@@ -50,7 +48,34 @@ This project aims to identify the factors that influence pricing and demand to s
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images/airbnb_dashboard.png)
+![Dashboard] ![image alt]()
+
+## 📸 Dataset Snapshot
+
+![Dataset Preview] ![image alt]()
+
+---
+
+📁 Dataset Information
+
+**The dataset contains Airbnb listings with features such as:**
+* Location (neighbourhood, latitude, longitude)
+* Room type
+* Price and price category
+* Reviews and ratings
+* Availability and demand level
+
+---
+
+## 📊 Dataset Preview
+
+| id | neighbourhood_group | neighbourhood | room_type | price | rating | bedrooms | price_category | demand_level |
+|----|--------------------|--------------|----------|-------|--------|----------|----------------|--------------|
+| 1312228 | Brooklyn | Clinton Hill | Private room | 55 | 5.0 | 1 | Budget | Low |
+| 45277537 | Manhattan | Hell's Kitchen | Entire home/apt | 144 | 4.67 | 2 | Standard | Low |
+| 971000000 | Manhattan | Chelsea | Entire home/apt | 187 | 4.17 | 1 | Standard | Medium |
+| 3857863 | Manhattan | Washington Heights | Private room | 120 | 4.64 | 1 | Standard | Medium |
+| 40896611 | Manhattan | Murray Hill | Entire home/apt | 85 | 4.91 | Studio | Budget | Low |
 
 ---
 
@@ -109,6 +134,7 @@ airbnb-pricing-strategy-analysis
 │
 ├── notebook/
 │   └── airbnb_analysis.ipynb
+│   └── airbnb_analysis.html
 │
 ├── dashboard/
 │   └── airbnb_dashboard.pbix
