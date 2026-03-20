@@ -52,7 +52,7 @@ This project aims to identify the factors that influence pricing and demand to s
 
 ## 📸 Dataset Snapshot
 
-![Dataset Preview] ![image alt]()
+![Dataset Preview] ![image alt](https://github.com/panditrobin514-art/airbnb-pricing-strategy-analysis/blob/d09f83b62c9b2af9206c6096834c3f0f83853433/images/dataset_preview.png)
 
 ---
 
